@@ -1,126 +1,135 @@
-#container{
-    display:flex;
-    /* border:1px solid black; */
-    height: 450px;
+#container {
+  display: flex;
+  /* border:1px solid black; */
+  height: 450px;
 }
-#design{
-    width: 70%;
-    /* border:1px solid red; */
-    background-image: url("https://internshala.com/static/images/registration/student/background-768.png");
-    background-size: cover;
-    
-    
-    height: 100%;
+#design {
+  width: 70%;
+  /* border:1px solid red; */
+  background-image: url("https://internshala.com/static/images/registration/student/background-768.png");
+  background-size: cover;
+
+  height: 100%;
+}
+#data {
+  width: 30%;
+  /* border: 1px solid green; */
+  margin: auto;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+#head > h1 {
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-bottom: 5px;
+  /* background-image: url("https://internshala.com/static/images/registration/student/brush_stroke.svg"); */
+}
+#head > p {
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 520;
+}
+#int {
+  display: flex;
+  height: 25px;
+  /* border:1px solid black; */
+}
+#int > img {
+  height: 100%;
+  /* margin-top: 0px; */
+}
+#int > h4 {
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-top: 5px;
+}
+form > input {
+  width: 290px;
+  height: 30px;
+}
+form > p {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+#first_name,
+#last_name {
+  width: 150px;
+  height: 30px;
+}
+#doe {
+  display: flex;
+  width: 230px;
+  justify-content: space-between;
+}
+form > button {
+  width: 290px;
+  color: white;
+  background-color: #00a5ec;
+  height: 30px;
+  border: 0px;
+}
+#reg {
+  margin-left: 12%;
+}
+#centre {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #008bdc;
+}
+#navbar {
+  display: flex;
+  height: 80px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#img {
+  flex: 6;
+  margin-top: 1%;
+}
+#text {
+  flex: 4;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1%;
+}
+#free {
+  display: flex;
+  margin-right: 5px;
+  margin-left: 5px;
+  background-image: url("https://internshala.com/static/images/registration/student/brush_stroke.svg");
+  background-size: contain;
+  width: 80px;
+  color: white;
+}
+#ride {
+  display: flex;
+}
+#text > p {
+  font-size: 15px;
+  font-family: sans-serif;
+}
 
 
-    
-}
-#data{
-    width: 30%;
-    /* border: 1px solid green; */
-    margin:auto;
-    background-color: #FFFFFF;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-top: 2%;
-    margin-left: 2%;
-}
-#head>h1{
-    font-size: 30px;
-    font-family:  sans-serif;
-    margin-bottom: 5px;
-    /* background-image: url("https://internshala.com/static/images/registration/student/brush_stroke.svg"); */
 
-    
-}
-#head>p{
-    font-size:25px;
-    font-family: sans-serif;
-    font-weight:520;
-}
-#int{
-    display: flex;
-    height: 25px;
-    /* border:1px solid black; */
-    
-}
-#int>img{
-    height: 100%;
-    /* margin-top: 0px; */
-}
-#int>h4{
-    font-size: 18px;
-    font-family: sans-serif;
-    margin-top: 5px;
-}
-form>input{
-    width:290px;
-    height: 30px;
 
-}
-form>p{
-    font-size: 14px;
-    font-family: sans-serif;
-}
-#first_name,#last_name{
-    width: 150px;
-    height: 30px;
-}
-#doe{
-    display: flex;
-    width: 230px;
-    justify-content: space-between;
-}
-form>button{
-    width:290px;
-    color:white;
-    background-color: #00A5EC;
-    height: 30px;
-    
-}
-#reg{
-    margin-left: 12%;
-    
-    
-}
-#centre{
-    text-align: center;
-}
-a{
-    text-decoration: none;
-    color: #008BDC;
-}
-#navbar{
-    display: flex;
-    height: 80px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    
 
-}
-#img{
-    flex:6;
-    margin-top: 1%;
-}
-#text{
-    flex:4;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1%;
-}
-#free{
-    display: flex;
-    margin-right: 5px;
-    margin-left: 5px;
-    background-image: url("https://internshala.com/static/images/registration/student/brush_stroke.svg");
-    background-size: contain;
-    width:80px;
-    color:white
-}
-#ride{
-    display: flex;
-    
-}
-#text>p{
-    font-size: 15px;
-    font-family: sans-serif;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
