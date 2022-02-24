@@ -17,11 +17,9 @@ let x = setInterval(() => {
   ).innerHTML = `${days}d: ${hours}h: ${minutes}m: ${sec}s`;
 }, 1000);
 
-// Dropdown Hover Options
-// let dropdown = document.getElementById("dropdown_hover");
-// dropdown.addEventListener("hover", ()=>{
-
-// })
+$("#dropdown_hover").click(function () {
+  $("#hover_div").slideToggle("slow");
+});
 
 $(".container1").click(function () {
   $(".hid_container1").slideToggle("slow");
