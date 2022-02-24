@@ -310,10 +310,10 @@ var data = [
 ];
 localStorage.setItem("data",JSON.stringify(data))
 
-let internshipData = (data,parent)=>
+let internshipData = (data)=>
 // function internshipData()
  {
-     
+  parent.innerHTML="";   
   data.map((el) => {
     // console.log("object");
     let carddiv = document.createElement("div");
@@ -388,7 +388,7 @@ let internshipData = (data,parent)=>
 });
 }
 // let parent = document.getElementById("main");
-internshipData(data, parent);
+internshipData(data);
 
 let wfh_checkbox = document.getElementById("wfh")
 
@@ -401,9 +401,13 @@ wfh_checkbox.oninput= function checkboxfilter(parent){
         filteredData.push(item)
       }
     })
-
+    console.log(filteredData);
+    internshipData(filteredData)
   }
-  internshipData(filteredData,parent)
+  else{
+    internshipData(data)
+  }
+  
 }
 
 // export { internshipData };

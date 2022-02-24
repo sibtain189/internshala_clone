@@ -8,8 +8,8 @@ function sidebar(){
         <form action="">
           <label for="">Category</label>
           <br>
-        <select type="text" data-placeholder="e.g. Marketing" style="line-height: -15px;color:gray;border:1"  />
-          <option value="e.g. Marketing"></option>
+        <select type="text" placeholder="e.g. Marketing" style="line-height: -15px;color:gray;border:1;appearance: none;"  />
+          <option value="e.g. Marketing">e.g. Marketing</option>
           <option value="">.NET Development</option>
           <option>3D Printing</option>
           <option>Accounts</option>
