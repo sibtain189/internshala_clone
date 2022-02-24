@@ -45,8 +45,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
-  border: none;
-  background: #f1f1f1;
+  border: 1 px solid;
+  /* background: #f1f1f1; */
 }
 
 /* When the inputs get focus, do something */
@@ -68,12 +68,10 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 
 /* Add a red background color to the cancel button */
-.form-container .cancel {
-  background-color: red;
-}
+
 
 /* Add some hover effects to buttons */
-.form-container .btn:hover, .open-button:hover {
+.form-container .btn:hover {
   opacity: 1;
 }
 form>h1{
