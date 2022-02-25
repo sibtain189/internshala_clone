@@ -43,7 +43,7 @@ function sidebar(){
           <label id = "text_label">Part-time</label>
           <div class=""toggle>
           <label class="switch">
-          <input type="checkbox" checked>
+          <input id="ptm" type="checkbox" checked>
           <span class="slider_switch""></span>
           </label>
           </div>
@@ -71,14 +71,14 @@ function sidebar(){
         </div>
         <form action="">
           <label for="">Starting from (or after)</label>
-          <input type="date" placeholder="Choose date" />
+          <input type="text" placeholder="Choose date" />
           <br>
           <label for=""> Max. duration (months)</label>
           <input type="months" placeholder="Choose duration" />
         </form>
         <div>
            <div id="toggle-switch">
-          <label id = "text_label">Internships for women</label>
+          <label id = "text_label">Internships for women ?</label>
           <div class=""toggle>
          <label class="switch">
           <input type="checkbox" checked>
@@ -89,7 +89,7 @@ function sidebar(){
         <div>
           <div>
            <div id="toggle-switch">
-           <label id = "text_label">Internships with job offer</label>
+           <label id = "text_label">Internships with job offer ?</label>
           <div class=""toggle>
          <label class="switch">
           <input type="checkbox" checked>
