@@ -54,6 +54,7 @@ body{
 form > input {
   width: 300px;
   height: 40px;
+  border:1px solid lightgray
 }
 form>input:hover{
   border: 1.4px solid #008bdc;
