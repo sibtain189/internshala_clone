@@ -1,10 +1,10 @@
 import footer from "../../code file/components/footer.js";
 import navbar from "../../code file/components/navbar.js";
 document.querySelector("footer").innerHTML = footer();
-document.querySelector("nav").innerHTML = navbar();
- document.querySelector(".logo").addEventListener("click", function(){
-   window.location.href="../index.html"
- })
+document.querySelector("header").innerHTML = navbar();
+document.querySelector(".logo").addEventListener("click", function () {
+  window.location.href = "../index.html";
+});
 
 document.getElementById("but").addEventListener("click", myFunction);
 var arr = JSON.parse(localStorage.getItem("details")) || [];
@@ -46,10 +46,8 @@ function theFunction() {
   let flag = true;
   for (let i = 0; i < arr.length; i++) {
     if (arr[i].mail === mail && arr[i].password === ps) {
-       alert("login Successfull")
+      alert("login Successfull");
 
-      window.location.href = "personal_details.html";
-  
       flag = true;
       break;
     } else {
