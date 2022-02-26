@@ -15,16 +15,6 @@ optionList.forEach(ele =>{
 })
 
 
-// const slideShow = () => {
-//     let img_arr = ['images/images1.jpg','images/images3.jpg','images/images4.jpg','images/images5.jpg']
-//     let slide_img = document.getElementById('slideshow_img')
-//     let i=0;
-//     var x = setInterval(function(){
-//         if(i==img_arr.length){
-//             i=0;
-//         }
-//         slide_img.src = img_arr[i];
-//         i++;
-//     },2000)
-// }
-// slideShow();
+import footer from "../code file/components/footer.js"
+
+document.querySelector("footer").innerHTML=footer()
