@@ -1,9 +1,9 @@
-import footer "../code file/components/footer.js"
+import footer from "../../code file/components/footer.js";
 
-document.querySelector("footer").innerHTML=footer();
+document.querySelector("footer").innerHTML = footer();
 
 // Coupon Ribbon
-let dest = new Date("feb 26, 2022 10:00:00").getTime();
+let dest = new Date("mar 2, 2022 10:00:00").getTime();
 
 let x = setInterval(() => {
   let now = new Date().getTime();
