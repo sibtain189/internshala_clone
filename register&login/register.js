@@ -49,7 +49,7 @@ function theFunction() {
        alert("login Successfull")
 
       window.location.href = "personal_details.html";
-
+  
       flag = true;
       break;
     } else {
