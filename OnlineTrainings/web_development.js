@@ -80,6 +80,7 @@ function formSubmit(event) {
     formArr.push(formobj);
     localStorage.setItem("userdata", JSON.stringify(formArr));
     window.location.href = "../index.html";
+    window.location.href = "../Confirmation_Page/confirm.html";
   } else {
     alert("Enter all details");
   }
