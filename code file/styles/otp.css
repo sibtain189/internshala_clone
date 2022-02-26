@@ -6,7 +6,7 @@ div{
 .otp_box{
     background-color: whitesmoke;
     padding: 10px;
-    border: 1px solid red;
+    border: 1px solid dimgray;
     display: flex;
 }
 p{
