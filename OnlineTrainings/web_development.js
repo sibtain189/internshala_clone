@@ -1,5 +1,3 @@
-import footer from "../../code file/components/footer.js";
-
 document.querySelector("footer").innerHTML = footer();
 
 // Coupon Ribbon
