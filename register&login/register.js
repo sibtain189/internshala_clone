@@ -29,6 +29,7 @@ function myFunction(event) {
   if (mail === "" || password === "" || firstName === "" || lastName === "") {
     alert("please fill all the fields");
   } else {
+    alert("Sign Up success")
     window.location.href = "personal_details.html";
   }
 }
