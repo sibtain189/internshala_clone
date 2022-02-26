@@ -135,7 +135,7 @@ function sidebar(){
           </div>
          </div>
         </div>
-        <p>-------------------------  OR  -------------------------</p>
+        <p>-------------------------  OR  ---------------------</p>
         <input type="text" placeholder="e.g. Design,Mumbai,Infosys"/>
     `
 }

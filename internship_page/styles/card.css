@@ -151,7 +151,7 @@ button {
   background-color: white;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 30px;
   font-family: "Inter var", sans-serif;
   /* border: 1px solid red; */
@@ -167,7 +167,7 @@ button {
 }
 #main > div {
   /* border: 1px solid blue;  */
-  font-size: 11px;
+  font-size: 13px;
   border-radius: 5px;
   width: 75%;
   padding: 1%;
@@ -185,7 +185,7 @@ button {
   /* border: 1px solid; */
   display: flex;
   justify-content: space-evenly;
-  font-size: 11px;
+  font-size: 12px;
   text-align: center;
   font-family: "inter" sans-serif;
 }
@@ -202,7 +202,7 @@ button {
   width: 30%;
   background-color: whitesmoke;
   border-radius: 50px;
-  font-size: 11px;
+  font-size: 13px;
   /* line-height: 10px; */
 }
 #detaildiv {
@@ -229,7 +229,7 @@ button {
   width: 50%;
   /* border: 1px solid yellowgreen; */
   /* display: flex; */
-  font-size: 11px;
+  font-size: 12px;
 }
 h4 {
   font-size: 15px;
