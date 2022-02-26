@@ -75,7 +75,7 @@ function formSubmit(event) {
     email != "" &&
     password != "" &&
     contactNumber != "" &&
-    couponCode != ""
+    couponCode == "DEGREE10"
   ) {
     alert("SignUp Sucessful");
     formArr.push(formobj);
