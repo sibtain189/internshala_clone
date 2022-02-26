@@ -86,28 +86,34 @@
       </div>
     </div>
 
+    <div class="form-popup" id="myForm">
+      <form class="form-container">
+        <h1>Login</h1>
 
-    
+        <label for="email"><b>Email</b></label>
+        <input
+          id="em"
+          type="text"
+          placeholder="Enter Email"
+          name="email"
+          required
+        />
 
-<div class="form-popup" id="myForm">
-  <form  class="form-container">
-    <h1>Login</h1>
+        <label for="psw"><b>Password</b></label>
+        <input
+          id="ps"
+          type="password"
+          placeholder="Enter Password"
+          name="psw"
+          required
+        />
+        <p id="pp"><a>Forgot Password?</a></p>
 
-    <label for="email"><b>Email</b></label>
-    <input id="em" type="text" placeholder="Enter Email" name="email" required>
-
-    <label for="psw"><b>Password</b></label>
-    <input id="ps" type="password" placeholder="Enter Password" name="psw" required>
-    <p id="pp"><a>Forgot Password?</a></p>
-
-    <button type="submit" class="btn" id="btns">Login</button>
-    <!-- <button type="button" class="btn cancel" onclick="closeForm()">Close</button> -->
-    <p id="p">New to Intershala?<a href="register.html">Register</a></p>
-  </form>
-</div>
-
-
-    
+        <button type="submit" class="btn" id="btns">Login</button>
+        <!-- <button type="button" class="btn cancel" onclick="closeForm()">Close</button> -->
+        <p id="p">New to Intershala?<a href="register.html">Register</a></p>
+      </form>
+    </div>
   </body>
 </html>
-<script  src="register.js"></script>
+<script src="register.js"></script>
