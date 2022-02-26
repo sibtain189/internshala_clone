@@ -9,7 +9,7 @@ const navbar = () =>{
   <nav>
     <ul id="nav_link">
       <li class="nav-hover">
-        <a href="#"
+        <a href="internship_page/card.html"
           >Internships<i class="fa-solid fa-caret-down"></i
         ></a>
         <div class="hover">
