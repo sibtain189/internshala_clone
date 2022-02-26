@@ -27,7 +27,24 @@ function sidebar(){
         </select>
           <br>
           <label for="">Location</label>
-          <input type="text" placeholder="e.g.Place " />
+          
+          <select type="text" placeholder="e.g.Delhi " style="line-height: -15px;color:gray;border:1;appearance: none;"  />
+          <option value="e.g. Marketing">e.g.Delhi </option>
+          <option value="">.Mumbai</option>
+          <option>Bangalore</option>
+          <option>Delhi</option>
+          <option>Hyderabad</option>
+          <option>Pune</option>
+          <option>Chennai</option>
+          <option>Calcutta</option>
+          <option>Android App Development</option>
+          <option>Angular.js Development</option>
+          <option>Animation</option>
+          <option>Architecture</option>
+          <option>Artificial Intelligence(AI)</option>
+          <option>ASP.NET Development</option>
+          <option>Audio Making/Editing</option>
+        </select>
         </form>
         <div id="toggle-switch">
           <label id = "text_label">Work from Home</label>
@@ -58,14 +75,15 @@ function sidebar(){
             step="3"
             class="slider"
             id="stipend_filter"
-            style="
+            style="width:100%;
+            
               background: linear-gradient(
                 to right,
                 #dddddd 0%,
                 #dddddd 0%,
                 #008bdc 0%,
                 #008bdc 100%
-              );
+              );"
             "
           />
         </div>

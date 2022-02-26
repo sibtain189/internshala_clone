@@ -509,3 +509,9 @@ ptm_checkbox.oninput = function checkboxfilterptm(parent) {
 };
 
 // export { internshipData };
+
+import footer from "../../code file/components/footer.js";
+import navbar from "../../code file/components/navbar.js"
+
+document.querySelector("footer").innerHTML = footer()
+document.querySelector("nav").innerHTML = navbar()

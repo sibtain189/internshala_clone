@@ -1,5 +1,5 @@
 const slideShow = () => {
-    let img_arr = ['./images/int1.PNG','./images/int2.PNG','./images/int3.PNG','./images/int4.PNG']
+    let img_arr = ['./code file/images/int1.PNG','./code file/images/int2.PNG','./code file/images/int3.PNG','./code file/images/int4.PNG']
     let slide_img = document.getElementById('slideshow_img')
     let i=0;
     var x = setInterval(function(){

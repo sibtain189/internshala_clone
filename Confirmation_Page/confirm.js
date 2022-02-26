@@ -13,8 +13,3 @@ optionList.forEach(ele =>{
         optionsContainer.classList.remove("active")
     })
 })
-
-
-import footer from "../code file/components/footer.js"
-
-document.querySelector("footer").innerHTML=footer()
