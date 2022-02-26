@@ -39,7 +39,7 @@ const navbar = () =>{
         </div>
       </li>
       <li class="nav-hover">
-        <a href="#"
+        <a href="OnlineTrainings/web_development.html"
           >Online Training <span id="offer">OFFER</span
           ><i class="fa-solid fa-caret-down"></i
         ></a>
@@ -76,7 +76,7 @@ const navbar = () =>{
         <a href="#">Freshers Job</a>
       </li>
       <a><button id="bu" class="button">Login</button></a>
-      <a><button class="button" id="register">Register</button></a>
+      <a><button onclick="window.location.href='../register&login/register.html'" class="button" id="register">Register</button></a>
     </ul>
   </nav>`
 }
