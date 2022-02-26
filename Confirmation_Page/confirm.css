@@ -160,7 +160,7 @@ button {
     color: rgb(77, 76, 76);
 }
 
-.filled-mail{
+#filled-mail{
     width: 100%;
     padding: 10px 0 10px 10px;
     background: #f8f8f8;
