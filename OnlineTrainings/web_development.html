@@ -4,13 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="https://internshala.com//favicon.ico?v=5" />
     <title>Web Development</title>
     <!-- font awesome -->
     <script
       src="https://kit.fontawesome.com/6deb308963.js"
       crossorigin="anonymous"
     ></script>
-    <!-- <script src="https://kit.fontawesome.com/d3db143f9a.js" crossorigin="anonymous"></script> -->
+    <!-- google icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Css -->
     <link rel="stylesheet" href="web_development.css" />
     <!-- jquery -->
@@ -38,7 +40,7 @@
         <div id="login">Login</div>
       </div>
     </div>
-    <hr />
+    <hr id="nav_hr" />
     <div id="banner_container">
       <div id="hover_div">
         <div id="hover_div_flex">
@@ -86,7 +88,7 @@
               <div>
                 <i class="fa-solid fa-handshake"></i> Placement Assistance
               </div>
-              <div><i class="fa-solid fa-volume"></i> English, हिन्दी</div>
+              <div><span class="material-icons">volume_up</span> English, हिन्दी</div>
             </div>
           </div>
           <div id="offer_tag_container">
@@ -169,7 +171,7 @@
               <div id="bill">
                 <span id="must_pay">₹1349</span
                 ><span id="original_price">4499</span>
-                <p>valid till 26th Feb</p>
+                <p>valid till 2nd Mar</p>
               </div>
               <button>Sign up</button>
             </form>
@@ -317,15 +319,18 @@
           <div><i class="fa-solid fa-angle-down"></i></div>
         </div>
         <div class="lang_descr">
-          <div><i class="fa-thin fa-file-lines"></i>6 Topics</div>
+          <!-- <div><i class="fa-thin fa-file-lines"></i>6 Topics</div> -->
+          <div><span class="material-icons">description</span>6 Topics</div>
           <div class="demo_vid_inside">
-            <i class="fa-thin fa-circle-play"></i>1 Demo video inside
+            <span class="material-icons">play_circle_outline</span>1 Demo video inside
           </div>
         </div>
       </div>
       <div class="hidden_container hid_container1">
         <div class="hidden_cont">
-          <p><i class="fa-thin fa-circle-play"></i>Training Overview Video</p>
+          <div>
+            <span class="material-icons">play_circle_outline</span><p>Training Overview Video</p>
+          </div>
         <ul>
           <li>About the Training</li>
           <li>Basic Concepts of Web Development</li>
@@ -342,15 +347,17 @@
           <div><i class="fa-solid fa-angle-down"></i></div>
         </div>
         <div class="lang_descr">
-          <div><i class="fa-thin fa-file-lines"></i>11 Topics</div>
+          <div><span class="material-icons">description</span>11 Topics</div>
           <div class="demo_vid_inside">
-            <i class="fa-thin fa-circle-play"></i>1 Demo video inside
+            <span class="material-icons">play_circle_outline</span>1 Demo video inside
           </div>
         </div>
       </div>
       <div class="hidden_container hid_container2">
         <div class="hidden_cont">
-          <p><i class="fa-thin fa-circle-play"></i>Introduction To CSS</p>
+          <div>
+            <span class="material-icons">play_circle_outline</span><p>Introduction To CSS</p>
+          </div>
         <ul>
           <li>CSS Selectors</li>
           <li>Unit: Length and Color</li>
@@ -371,15 +378,17 @@
           <div><i class="fa-solid fa-angle-down"></i></div>
         </div>
         <div class="lang_descr">
-          <div><i class="fa-thin fa-file-lines"></i></i>3 Topics</div>
+          <div><span class="material-icons">description</span></i>3 Topics</div>
           <div class="demo_vid_inside">
-            <i class="fa-thin fa-circle-play"></i>1 Demo video inside
+            <span class="material-icons">play_circle_outline</span>1 Demo video inside
           </div>
         </div>
       </div>
         <div class="hidden_container hid_container3">
         <div class="hidden_cont">
-          <p><i class="fa-thin fa-circle-play"></i>Layout</p>
+          <div>
+            <span class="material-icons">play_circle_outline</span><p>Layout</p>
+          </div>
         <ul>
           <li>Introduction to Bootstrap</li>
           <li>Other Components</li>
@@ -392,12 +401,14 @@
           <div><i class="fa-solid fa-angle-down"></i></div>
         </div>
         <div class="lang_descr">
-          <div><i class="fa-thin fa-file-lines"></i></i>9 Topics</div>
+          <div><span class="material-icons">description</span></i>9 Topics</div>
         </div>
       </div>
       <div class="hidden_container hid_container4">
         <div class="hidden_cont">
-          <p><i class="fa-thin fa-circle-play"></i>Introduction To CSS</p>
+          <div>
+            <span class="material-icons">play_circle_outline</span><p>Introduction To CSS</p>
+          </div>
         <ul>
           <li>Introduction to DBMS</li>
           <li>Basic Concepts and Terminologies</li>
@@ -417,12 +428,14 @@
           <div><i class="fa-solid fa-angle-down"></i></div>
         </div>
         <div class="lang_descr">
-          <div><i class="fa-thin fa-file-lines"></i></i>10 Topics</div>
+          <div><span class="material-icons">description</span></i>10 Topics</div>
         </div>
       </div>
       <div class="hidden_container hid_container5">
         <div class="hidden_cont">
-          <p><i class="fa-thin fa-circle-play"></i>Introduction To CSS</p>
+          <div>
+            <span class="material-icons">play_circle_outline</span><p>Introduction To CSS</p>
+          </div>
         <ul>
           <li>PHP: Introduction and Installation</li>
           <li>Variables and Operators</li>
@@ -441,4 +454,4 @@
     <footer></footer>
   </body>
 </html>
-<script src="web_development.js"></script>
+<script type="module" src="web_development.js"></script>
