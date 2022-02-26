@@ -1,3 +1,7 @@
+import footer from "../../code file/components/footer.js";
+import navbar from "../../code file/components/navbar.js"
+document.querySelector("footer").innerHTML=footer()
+document.querySelector("nav").innerHTML=navbar()
 
 document.getElementById("but").addEventListener("click",myFunction)
 var arr = JSON.parse(localStorage.getItem("details")) || [];
@@ -23,9 +27,11 @@ function myFunction(event) {
     window.location.href = "personal_details.html";
   }
 }
-document.getElementById("login").addEventListener("click",openForm)  //change krna h jab navbar milega
+document.getElementById("bu").addEventListener("click",openForm)
+document.getElementById("bun").addEventListener("click",openForm)  //change krna h jab navbar milega
 
-function openForm() {
+function openForm(event) {
+  event.preventDefault()
     document.getElementById("myForm").style.display = "block";
   }
 document.getElementById("btns").addEventListener("click",theFunction)
@@ -38,6 +44,7 @@ function theFunction(){
     for(let i =0;i<arr.length;i++){
         if(arr[i].mail===mail&&arr[i].password==ps){
             alert("login Successfull")
+            window.location.href='../internship_page/card.html';
             flag=true;
             break;
         }

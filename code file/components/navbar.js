@@ -75,7 +75,7 @@ const navbar = () =>{
       <li>
         <a href="#">Freshers Job</a>
       </li>
-      <a><button class="button">Login</button></a>
+      <a><button id="bu" class="button">Login</button></a>
       <a><button class="button" id="register">Register</button></a>
     </ul>
   </nav>`
