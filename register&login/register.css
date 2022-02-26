@@ -1,3 +1,6 @@
+body{
+  padding-left: 20px;
+}
 #container {
   display: flex;
   /* border:1px solid black; */
@@ -19,6 +22,9 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin-top: 2%;
   margin-left: 2%;
+  /* height: 420px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 #head > h1 {
   font-size: 30px;
@@ -46,8 +52,12 @@
   margin-top: 5px;
 }
 form > input {
-  width: 290px;
-  height: 30px;
+  width: 300px;
+  height: 40px;
+  border:1px solid lightgray
+}
+form>input:hover{
+  border: 1.4px solid #008bdc;
 }
 form > p {
   font-size: 14px;
@@ -56,7 +66,7 @@ form > p {
 #first_name,
 #last_name {
   width: 150px;
-  height: 30px;
+  height: 40px;
 }
 #doe {
   display: flex;
@@ -64,11 +74,16 @@ form > p {
   justify-content: space-between;
 }
 form > button {
-  width: 290px;
+  width: 300px;
   color: white;
   background-color: #00a5ec;
-  height: 30px;
+  height: 40px;
   border: 0px;
+  cursor: pointer;
+
+}
+button:hover{
+  background-color: #008bdc;
 }
 #reg {
   margin-left: 12%;
