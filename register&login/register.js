@@ -44,25 +44,31 @@ function openForm(event) {
 
 
 // ---------------------------------------------------------
-document.getElementById("btns").addEventListener("click", theFunction);
+document.querySelector("#btns").addEventListener("click", theFunction);
 
-function theFunction() {
+function theFunction(event) {
+  event.preventDefault();
   let  mail = document.getElementById("em").value;
   let ps = document.getElementById("ps").value;
 
-  let flag = true;
+  let flag;
   for (let i = 0; i < arr.length; i++) {
     if (arr[i].mail === mail && arr[i].password === ps) {
       alert("login Successfull");
       window.location.href="../internship_page/card.html"
+      
+      
 
-      flag = true;
+       flag = true;
+      break;
       
     } else {
       flag = false;
     }
   }
-  if (flag === false) {
+  if (flag===false) {
     alert("wrong credentials");
+    
+    
   }
 }

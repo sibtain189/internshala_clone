@@ -22,8 +22,8 @@ function logn (){
       />
       <p id="pp"><a>Forgot Password?</a></p>
 
-      <button  class="btn" id="btns" >Login</button>
-      <!-- <button type="button" class="btn cancel" onclick="closeForm()">Close</button> -->
+      <button class="btn" id="btns">Login</button>
+      
       <p id="p">New to Intershala?<a href="register.html">Register</a></p>
     </form>
   </div>`
