@@ -74,12 +74,12 @@ function formSubmit(event) {
     email != "" &&
     password != "" &&
     contactNumber != "" &&
-    couponCode != ""
+    couponCode == "DEGREE10"
   ) {
     alert("SignUp Sucessful");
     formArr.push(formobj);
     localStorage.setItem("userdata", JSON.stringify(formArr));
-    // window.location.href = "signin.html";
+    window.location.href = "index.html";
   } else {
     alert("Enter all details");
   }

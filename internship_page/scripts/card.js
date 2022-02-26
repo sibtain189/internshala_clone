@@ -445,7 +445,7 @@ let internshipData = (data) =>
 
       detaildiv.onclick = () => {
         // console.log("object");
-        window.location.href = "";
+        window.location.href = "../Traning_Page/traning.html";
       };
 
       let bottomdiv = document.createElement("div");
