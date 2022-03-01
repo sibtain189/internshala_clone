@@ -76,7 +76,7 @@ const navbar = () =>{
         <a href="#">Freshers Job</a>
       </li>
       <a><button id="bu" class="button">Login</button></a>
-      <a><button onclick="window.location.href='../register&login/register.html'" class="button" id="register">Register</button></a>
+      <a><button onclick="window.location.href='register&login/register.html'" class="button" id="register">Register</button></a>
     </ul>
   </nav>`
 }
